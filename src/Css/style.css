@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/*======================================================= Home Page Css============================================  */
+/* After Slider Section */
+section.hero-text-section {
+    padding: 80px 100px;
+    background: linear-gradient(90deg, rgb(58, 42, 209) 0%, rgba(73,63,252,1) 100%);
+    color: white;
+    display: block;
+}
+
+/* PagesMainSectionContent Like About section title & paragraph  , services section title & paragraph etc */
+
+/* Service Section On Home Page */
+section.services {
+    margin: 50px 10px;
+}
+/* About Section On Home Page */
+section.about {
+    margin: 50px 10px;
+}
+/* Team Section On Home Page */
+.row-team{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.team-column{
+    flex-basis: 50%;
+    margin: 0px 0px;
+}
+.team-col{
+    padding: 10px 0px;
+    background: linear-gradient(90deg, rgb(58, 42, 209) 0%, rgba(73,63,252,1) 100%);
+    color: white;
+}
+.team-section-container{
+    width: 100%;
+    margin-bottom: 80px; 
+}  
+img.team-img {
+    width: 100%;
+    height: 100%;
+}
+.home-page-team-content {
+    padding: 100px 100px;
+}
+.home-page-blog{
+margin-top:50px;
+}
+.homepage-work-with-us-section{
+    margin-top:100px;
+}
+/* Media Query */
+@media only screen and (min-width: 570px) and (max-width: 969px){
+    /*Mobile [250px -> 768px]*/
+    section.hero-text-section {
+        padding: 25px 25px;
+        background: linear-gradient(90deg, rgb(58, 42, 209) 0%, rgba(73,63,252,1) 100%);
+        color: white;
+        display: block;
+    }
+    .row-team {
+        flex-direction: column-reverse;
+    }
+    .team-col {
+        margin-top: -20px;
+    }
+}
+@media only screen and (min-width: 220px) and (max-width: 569px){
+    /*Mobile [250px -> 768px]*/
+    section.hero-text-section {
+        padding: 25px 25px;
+        font-size: small;
+    }
+    .row-team {
+        flex-direction: column-reverse;
+    }
+    .team-col {
+        margin-top: -20px;
+    }
+    .home-page-team-content {
+        padding: 50px 40px;
+    }
+    h1.team-title {
+        color: white;
+        font-size: 30px;
+    }
+    p.team-para {
+        font-size: small;
+    }
+}

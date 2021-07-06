@@ -1,0 +1,73 @@
+/* Create two equal columns that floats next to each other */
+.about-section-row {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .about-section-img{
+      flex-basis: 50%;
+      margin:20px 20px;
+  }
+  .about-col {
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+  .about-section-detail{
+    flex-basis: 50%;
+      margin:20px 20px;
+  
+  }
+  li.about-li {
+      list-style: inside;
+      margin: 10px;
+  }
+  .about-section-container{
+      margin: auto;
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 100px; 
+  }  
+  .our-about-h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .our-about-p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+  }
+  @media only screen and (min-width: 990px) and (max-width: 1279px){
+      /*Tablets [601px -> 1200px]*/
+      .about-section-container{
+        margin: auto;
+        width: 90%;
+        padding:10px;
+        margin-bottom: 100px; 
+    }
+    img.about-img {
+      width: 100%;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 220px) and (max-width: 989px){
+      /*Mobile [250px -> 768px]*/
+      .about-section-row {
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+      img.about-img {
+        width: 100%;
+        margin: auto;
+    }
+    .about-section-container {
+      width: 100%; 
+  }
+  .about-section-detail {
+    font-size: small;
+  }
+   
+    }
+  

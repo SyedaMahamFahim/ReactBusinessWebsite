@@ -1,0 +1,147 @@
+.main-div {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+      rgba(17, 17, 26, 0.1) 0px 0px 8px; */
+  }
+  
+  .faqs-h1 {
+    text-align: center;
+    font-family: "Poppins", serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    letter-spacing: 5;
+    word-spacing: 5px;
+    margin-bottom: 50px;
+    color: black;
+  }
+  
+  .main-heading {
+    margin-top: 30px;
+    padding: 40px 0 30px 10px;
+    background: #f1f4ff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .faqs-float-right {
+    float: right;
+    margin: -20px 10px;
+}
+  
+  .main-heading:first-child {
+    margin-top: 0;
+  }
+  
+  .main-heading h3 {
+    margin-left: 30px;
+    color: black;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: -15px;
+    margin-right: 20px;
+}
+  
+  .main-heading p {
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background: #fff;
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+  }
+  
+  .answers {
+    padding: 30px 20px 40px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.7;
+    background: #fcf5f5;
+    color: rgb(40, 37, 53);
+  }
+  .faqs{
+    font-family: 'Poppins', sans-serif;
+  }
+  .faqs-float-right{
+float: right;
+
+  }
+  .faqs-float-left{
+    float: left;
+    
+  }
+
+  @media only screen and (min-width: 630px) and (max-width: 766px){
+    /*Tablets [601px -> 1200px]*/
+    .main-div {
+      width: 80%;
+      margin: auto;
+      padding: 10px 05px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+     
+    }
+      
+}
+@media only screen and (min-width: 375px) and (max-width: 629px){
+  /*Tablets [601px -> 1200px]*/
+  .main-div {
+    width: 98%;
+    margin: auto;
+    padding: 10px 05px;
+   
+  }
+  .main-heading h3 {
+    font-size: 12px;
+    margin: 0px 9px 0px 20px;
+}
+  .main-heading {
+    padding: 40px 0 45px 0px;
+  }
+   
+  .faqs-h1 {
+    font-size: 14px;
+  }
+  .faqs-float-right {
+    float: right;
+    margin: -10px 10px;
+    }
+}
+@media only screen and (min-width: 210px) and (max-width: 374px){
+  /*Tablets [601px -> 1200px]*/
+  .main-heading {
+    padding: 15px 0 45px 0px;
+}
+.faqs-float-left {
+  float: left;
+  max-width: 75%;
+}
+  .main-div {
+    width: 98%;
+    margin: auto;
+    padding: 10px 05px;
+   
+  }
+  .main-heading h3 {
+    font-size: 12px;
+    margin: 0px 9px 0px 20px;
+}
+  .main-heading {
+    padding: 40px 0 45px 0px;
+  }
+   
+  .faqs-h1 {
+    font-size: 14px;
+  }
+  .faqs-float-right {
+    float: right;
+    margin: -10px 10px;
+    }
+}

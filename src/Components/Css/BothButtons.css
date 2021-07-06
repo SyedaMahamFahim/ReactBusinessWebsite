@@ -1,0 +1,37 @@
+/* ===================================================Transparent Btn Css ===================================*/
+button.transparent-btn {
+    margin: 10px 0px 0px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+button.transparent-btn a {
+    color: white;
+}
+/* ====================================================== Color Btn Css================================= */
+button.color-btn {
+    margin: 10px 0px 0px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid white;
+    background-color: rgb(58, 42, 209);
+    color: white;
+
+}
+button.color-btn:hover {
+    border: 2px solid rgb(58, 42, 209);
+    background-color: transparent; 
+    color: rgb(58, 42, 209);  
+}
+button.color-btn a{
+        color: white;
+        text-decoration: none; 
+}
+button.color-btn a:hover{
+    color: rgb(58, 42, 209);
+    text-decoration: none; 
+}

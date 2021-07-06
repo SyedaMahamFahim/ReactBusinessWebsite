@@ -1,0 +1,16 @@
+/* Banner Css */
+.banner-bg-img{
+    background-image: url('https://predictive-analytica.co.uk/wp-content/uploads/2021/02/banner_image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 220px) and (max-width: 659px){
+    /*Mobile [250px -> 768px]*/
+    .banner-bg-img{
+        padding: 100px;
+    }
+}

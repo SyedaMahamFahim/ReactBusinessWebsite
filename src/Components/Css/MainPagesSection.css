@@ -1,0 +1,32 @@
+.pages-main-section{
+    margin: auto;
+    width: 80%;
+    padding: "10px";
+}
+.pages-main-section-h1{
+    text-align: center;
+    font-size: 30px;
+}
+.pages-main-section-p{
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+}
+@media only screen and (min-width: 220px) and (max-width: 989px){
+    /*Mobile [250px -> 768px]*/
+    .pages-main-section{
+        margin: auto;
+        width: 100%;
+        padding: "10px";
+    }
+    .pages-main-section-p {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+        font-size: small;
+    }
+  .about-section-container {
+    width: 100%;
+    
+}
+}
